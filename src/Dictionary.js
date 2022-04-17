@@ -15,7 +15,6 @@ export default function Dictionary(props) {
     }
 
     function handlePexelsResponse(response) {
-        console.log(response);
         setPhotos(response.data.photos);
     }
 
@@ -53,7 +52,7 @@ export default function Dictionary(props) {
                         <input type="search" onChange={handleKeywordChange} defaultValue={props.defaultKeyword}/>
                     </form>
                     <div className="hint">
-                        suggested words: sunset, wine, yoga, plant...
+                        i.e. videogame, fun, joystick, keyboard...
                     </div>
                 </section>
                 <Results results={results} />

@@ -1,11 +1,62 @@
+
 .Meaning h3 {
-    font-size: 24px;
+    font-size: 36px;
     line-height: 1.5;
     font-weight: bold;
+    color: #242488;
+}
+
+.Meaning h4 {
+    font-size: 20px;
+    color: #4f5256;
 }
 
 .Meaning .example {
-    color: #70757a;
+    color: #9b9d9e;
     font-style: italic;
-    margin-top: 10px;
+}
+
+.Meaning .example-list{
+    margin: 5px;
+}
+
+.Meaning .meaning-content{
+    margin-bottom: 15px;
+}
+
+.Meaning .definition {
+    color: #4f5256;
+}
+
+.Meaning .synonyms, .Meaning .antonyms{
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin: 25px auto;
+    color: #4f5256;
+}
+
+.Meaning .synonyms {
+    border: 1px solid #F9EBDF;
+    background-color: #F9EBDF;
+}
+
+.Meaning .antonyms {
+    border: 1px solid #E1E4FD;
+    background-color: #E1E4FD;
+}
+
+.Meaning .synonyms ul, .Meaning .antonyms ul{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.Meaning hr {
+    margin: 8px 0px;
+}
+
+.Meaning .synonyms li, .Meaning .antonyms li{
+    font-size: 13px;
+    display: inline-block;
+    padding-right: 10px;
+    line-height: 1;
 }

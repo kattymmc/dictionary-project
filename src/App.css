@@ -1,20 +1,42 @@
+.App .stroke {
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #242488;
+  color: transparent;
+}
+
+.App .shadow-stroke {
+  text-shadow: 3.2px 3.2px #F25FC1;
+}
+
 .App {
-  padding: 60px 0 50px;
-  max-width: 960px;
-  margin: 0 auto;
+  padding: 0px 0 40px;
+  max-width: 900px;
+  margin: 20px auto;
+  border: 1px solid #f5e9ff;
+  border-radius: 15px;
+  background-color: #f8f0ff;
+  box-shadow: 5px 5px 5px rgba(210, 118, 218, 0.1);
 }
 
 .App-logo {
   max-width: 200px;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
+}
+
+.App-header h1 {
+  text-align: center;
+  font-size: 75px;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 
 .App-header {
-  margin: 30px 0;
+  margin: 10px 0;
 }
 
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  margin: 0px 0;
 }
